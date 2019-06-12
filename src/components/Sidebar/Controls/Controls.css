@@ -1,0 +1,34 @@
+.control
+{
+    display: flex;
+    flex-flow: column;
+}
+.control .listBtn
+{
+        padding: 10px;
+    font-size: 1.6vw;
+    margin: 5px;
+    background: #10D091;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+        color: #272932;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+cursor: pointer;
+}
+.control .removeBtn
+{
+     background: #FF6464;
+}
+
+.control .listBtn:hover{
+       cursor: pointer;
+    background: #10EB7D;
+}
+
+.control .removeBtn:hover
+{
+ background: #FA3D57;
+
+}
+
+    

@@ -1,0 +1,115 @@
+.editBox {
+    margin: 25px 5px auto 5px;
+    border: 1px solid #272932;
+    border-radius: 3px;
+    padding: 5px;
+    background: #3f4040;
+    color: #FFFFF2;
+}
+.editBox label {
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+.editBox input {
+    width: 500px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.editBox textarea {
+    width: 50vw;
+    max-width: 60vw;
+    margin-left: 15px;
+    background: #FFFFF2;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+}
+.submitBtn {
+
+    background: #9388F2;
+    margin-left: 15px;
+    width: 110px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 0px 8px 18px;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cancelBtn {
+    background: #FF6464;
+    margin-left: 148px;
+    width: 110px;
+    font-size: 25px;
+    margin-top: -61px;
+    margin-bottom: 10px;
+    padding: 12px 0px 8px 18px;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    cursor: pointer;
+    user-select: none;
+}
+.editfalse
+{
+    display: none;
+}
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

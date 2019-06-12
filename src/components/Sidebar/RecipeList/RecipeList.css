@@ -1,0 +1,12 @@
+.recipeListItem
+{
+        padding: 10px;
+    font-size: 1.6vw;
+    margin: 5px;
+    background: #FFE37D;
+    border: 1px solid rgba(20, 20, 20, 0.5);
+}
+.recipeListItem:hover
+{    background: #FFD150;
+cursor: pointer
+}

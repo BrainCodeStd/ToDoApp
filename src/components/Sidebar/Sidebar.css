@@ -1,0 +1,14 @@
+.sideBar
+{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 20vw;
+  height: 100vh;
+  padding: 5px 10px 5px 10px;
+  background: #9388F2;
+  background: -webkit-linear-gradient(#9388F2, #6464D7) fixed no-repeat;
+  background: linear-gradient(#9388F2, #6464D7) fixed no-repeat;
+  border-right: 1px solid rgba(20, 20, 20, 0.5);
+
+}
